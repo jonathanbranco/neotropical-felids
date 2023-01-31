@@ -1,0 +1,526 @@
+Tue Jan 24 20:32:11 BRT 2023
+MaxEnt version 3.4.4
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\elevation.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\max temperature of warmest month.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\mean diurnal range.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\min temperature of coldest month.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\precipitation of coldest quarter.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\precipitation of driest quarter.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\precipitation of warmest quarter.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\precipitation of wettest quarter.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\precipitation seasonality.asc
+Checking header of U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers\temperature annual range.asc
+Reading samples from Leopardus braccatus clean.csv
+Read samples: max memory 2844786688, total allocated 192937984, free 170478464, used 22459520, increment 22459520
+Warning: interpreting Latitude column of sample file as latitude
+Extractor: max memory 2844786688, total allocated 192937984, free 169211904, used 23726080, increment 1266560
+Extracting random background and sample data
+Time since start: 1.06
+70719 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus" "projectionlayers=U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060" "samplesfile=U:\My Drive\Research data\Felid distribution mapping\New distribution data\Leopardus braccatus clean.csv" "environmentallayers=U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers"
+Species: Leopardus_braccatus
+Layers: elevation max temperature of warmest month mean diurnal range min temperature of coldest month precipitation of coldest quarter precipitation of driest quarter precipitation of warmest quarter precipitation of wettest quarter precipitation seasonality temperature annual range
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus
+projectionlayers: U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060
+samplesfile: U:\My Drive\Research data\Felid distribution mapping\New distribution data\Leopardus braccatus clean.csv
+environmentallayers: U:\My Drive\Research data\Felid distribution mapping\New distribution data\cropped layers
+
+getSamples: max memory 2844786688, total allocated 192937984, free 161773656, used 31164328, increment 7438248
+Making features
+makeFeatures: max memory 2844786688, total allocated 192937984, free 156325688, used 36612296, increment 5447968
+Leopardus_braccatus: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 192937984, free 141348648, used 51589336, increment 14977040
+linearPredictor: max memory 2844786688, total allocated 192937984, free 141268080, used 51669904, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 192937984, free 141268080, used 51669904, increment 0
+Sequential: max memory 2844786688, total allocated 192937984, free 141252704, used 51685280, increment 15376
+Initial loss: 9.217216675915616
+Time since start: 9.209
+500: time = 7.616000 loss = 7.564216
+Resulting gain: 1.653001002141134
+Projecting...
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\Leopardus_braccatus.asc
+Time since start: 10.961
+Writing U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\plots\Leopardus_braccatus.png
+Projecting...
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\elevation.asc size 1745652, max memory = 2844786688
+Reading file elevation.asc
+SHORT, 70719 pixels with data
+readGrid: max memory 2844786688, total allocated 391118848, free 205870512, used 185248336, increment 133563056
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\elevation.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\max temperature of warmest month.asc size 2261061, max memory = 2844786688
+Reading file max temperature of warmest month.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 391118848, free 133773384, used 257345464, increment 72097128
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\max temperature of warmest month.mxe
+Time since start: 11.968
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\mean diurnal range.asc size 2291301, max memory = 2844786688
+Reading file mean diurnal range.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 364904448, free 267731992, used 97172456, increment -160173008
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\mean diurnal range.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\min temperature of coldest month.asc size 2299950, max memory = 2844786688
+Reading file min temperature of coldest month.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 364904448, free 194426456, used 170477992, increment 73305536
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\min temperature of coldest month.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\precipitation of coldest quarter.asc size 2203052, max memory = 2844786688
+Reading file precipitation of coldest quarter.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 364904448, free 121120864, used 243783584, increment 73305592
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\precipitation of coldest quarter.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\precipitation of driest quarter.asc size 2225234, max memory = 2844786688
+Reading file precipitation of driest quarter.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 355991552, free 269841296, used 86150256, increment -157633328
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\precipitation of driest quarter.mxe
+Time since start: 13.014
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\precipitation of warmest quarter.asc size 2185172, max memory = 2844786688
+Reading file precipitation of warmest quarter.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 355991552, free 199352112, used 156639440, increment 70489184
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\precipitation of warmest quarter.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\precipitation of wettest quarter.asc size 2155494, max memory = 2844786688
+Reading file precipitation of wettest quarter.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 355991552, free 124475136, used 231516416, increment 74876976
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\precipitation of wettest quarter.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\precipitation seasonality.asc size 2253486, max memory = 2844786688
+Reading file precipitation seasonality.asc
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 347078656, free 267012640, used 80066016, increment -151450400
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\precipitation seasonality.mxe
+Converting file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\temperature annual range.asc size 2287846, max memory = 2844786688
+Reading file temperature annual range.asc
+Time since start: 14.058
+FLOAT, 66361 pixels with data
+readGrid: max memory 2844786688, total allocated 347078656, free 190986600, used 156092056, increment 76026040
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060\maxent.cache\temperature annual range.mxe
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\Leopardus_braccatus_projection 2041-2060.asc
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\Leopardus_braccatus_projection 2041-2060_clamping.asc
+Writing U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\plots\Leopardus_braccatus_projection 2041-2060.png
+Time since start: 15.303
+Writing U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\plots\Leopardus_braccatus_projection 2041-2060_clamping.png
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\Leopardus_braccatus_projection 2041-2060_novel.asc
+Writing file U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus braccatus\Leopardus_braccatus_projection 2041-2060_novel_limiting.asc
+Time since start: 16.94
+Leopardus_braccatus response curves
+Response curve: only elevation
+Making features
+makeFeatures: max memory 2844786688, total allocated 325582848, free 222650040, used 102932808, increment -53159248
+Leopardus_braccatus elevation: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 325582848, free 222632280, used 102950568, increment 17760
+linearPredictor: max memory 2844786688, total allocated 325582848, free 222632280, used 102950568, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 325582848, free 222632280, used 102950568, increment 0
+Sequential: max memory 2844786688, total allocated 325582848, free 222632280, used 102950568, increment 0
+Initial loss: 9.217216675915616
+Time since start: 18.352
+160: time = 0.506000 loss = 8.990193
+Resulting gain: 0.22702350307219632
+Leopardus_braccatus response curves
+Response curve: only max temperature of warmest month
+Making features
+makeFeatures: max memory 2844786688, total allocated 325582848, free 135636768, used 189946080, increment 86995512
+Leopardus_braccatus max temperature of warmest month: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 325582848, free 135636768, used 189946080, increment 0
+linearPredictor: max memory 2844786688, total allocated 325582848, free 135636768, used 189946080, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 325582848, free 135636768, used 189946080, increment 0
+Sequential: max memory 2844786688, total allocated 325582848, free 135636768, used 189946080, increment 0
+Initial loss: 9.217216675915616
+140: time = 0.341000 loss = 9.065940
+Resulting gain: 0.1512762195103221
+Leopardus_braccatus response curves
+Response curve: only mean diurnal range
+Making features
+makeFeatures: max memory 2844786688, total allocated 325582848, free 127986272, used 197596576, increment 7650496
+Leopardus_braccatus mean diurnal range: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 325582848, free 124201000, used 201381848, increment 3785272
+linearPredictor: max memory 2844786688, total allocated 325582848, free 124201000, used 201381848, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 325582848, free 124201000, used 201381848, increment 0
+Sequential: max memory 2844786688, total allocated 325582848, free 124201000, used 201381848, increment 0
+Initial loss: 9.217216675915616
+Time since start: 20.974
+320: time = 2.025000 loss = 8.585925
+Resulting gain: 0.6312914527876234
+Leopardus_braccatus response curves
+Response curve: only min temperature of coldest month
+Making features
+makeFeatures: max memory 2844786688, total allocated 311951360, free 119766912, used 192184448, increment -9197400
+Leopardus_braccatus min temperature of coldest month: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 311951360, free 119750104, used 192201256, increment 16808
+linearPredictor: max memory 2844786688, total allocated 311951360, free 119750104, used 192201256, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 311951360, free 119750104, used 192201256, increment 0
+Sequential: max memory 2844786688, total allocated 311951360, free 119750104, used 192201256, increment 0
+Initial loss: 9.217216675915616
+480: time = 0.831000 loss = 8.209453
+Resulting gain: 1.0077632005857726
+Leopardus_braccatus response curves
+Time since start: 21.99
+Response curve: only precipitation of coldest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 311951360, free 106297504, used 205653856, increment 13452600
+Leopardus_braccatus precipitation of coldest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 311951360, free 106280888, used 205670472, increment 16616
+linearPredictor: max memory 2844786688, total allocated 311951360, free 103021464, used 208929896, increment 3259424
+FeaturedSpace: max memory 2844786688, total allocated 311951360, free 103021464, used 208929896, increment 0
+Sequential: max memory 2844786688, total allocated 311951360, free 103021464, used 208929896, increment 0
+Initial loss: 9.217216675915616
+200: time = 0.548000 loss = 8.803414
+Resulting gain: 0.4138023357244691
+Leopardus_braccatus response curves
+Response curve: only precipitation of driest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 290455552, free 184385864, used 106069688, increment -102860208
+Leopardus_braccatus precipitation of driest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 290455552, free 184341712, used 106113840, increment 44152
+linearPredictor: max memory 2844786688, total allocated 290455552, free 184261144, used 106194408, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 290455552, free 184261144, used 106194408, increment 0
+Sequential: max memory 2844786688, total allocated 290455552, free 184261144, used 106194408, increment 0
+Initial loss: 9.217216675915616
+Time since start: 23.217
+260: time = 0.555000 loss = 8.944024
+Resulting gain: 0.2731926746101667
+Leopardus_braccatus response curves
+Response curve: only precipitation of warmest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 290455552, free 136469184, used 153986368, increment 47791960
+Leopardus_braccatus precipitation of warmest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 290455552, free 133299912, used 157155640, increment 3169272
+linearPredictor: max memory 2844786688, total allocated 290455552, free 133299912, used 157155640, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 290455552, free 133299912, used 157155640, increment 0
+Sequential: max memory 2844786688, total allocated 290455552, free 133299912, used 157155640, increment 0
+Initial loss: 9.217216675915616
+260: time = 0.624000 loss = 8.841294
+Resulting gain: 0.37592238140838496
+Leopardus_braccatus response curves
+Response curve: only precipitation of wettest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 290455552, free 73233472, used 217222080, increment 60066440
+Leopardus_braccatus precipitation of wettest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 290455552, free 73233472, used 217222080, increment 0
+linearPredictor: max memory 2844786688, total allocated 290455552, free 73233472, used 217222080, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 290455552, free 73233472, used 217222080, increment 0
+Sequential: max memory 2844786688, total allocated 290455552, free 73233472, used 217222080, increment 0
+Initial loss: 9.217216675915616
+Time since start: 25.294
+500: time = 1.241000 loss = 8.590586
+Resulting gain: 0.626630632868638
+Leopardus_braccatus response curves
+Response curve: only precipitation seasonality
+Making features
+makeFeatures: max memory 2844786688, total allocated 281542656, free 206996824, used 74545832, increment -142676248
+Leopardus_braccatus precipitation seasonality: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 281542656, free 204147352, used 77395304, increment 2849472
+linearPredictor: max memory 2844786688, total allocated 281542656, free 204147352, used 77395304, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 281542656, free 204147352, used 77395304, increment 0
+Sequential: max memory 2844786688, total allocated 281542656, free 204147352, used 77395304, increment 0
+Initial loss: 9.217216675915616
+Time since start: 27.418
+340: time = 2.000000 loss = 8.952346
+Resulting gain: 0.26487038536977714
+Leopardus_braccatus response curves
+Response curve: only temperature annual range
+Making features
+makeFeatures: max memory 2844786688, total allocated 266338304, free 116432616, used 149905688, increment 72510384
+Leopardus_braccatus temperature annual range: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 266338304, free 113930592, used 152407712, increment 2502024
+linearPredictor: max memory 2844786688, total allocated 266338304, free 113930592, used 152407712, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 266338304, free 113930592, used 152407712, increment 0
+Sequential: max memory 2844786688, total allocated 266338304, free 113930592, used 152407712, increment 0
+Initial loss: 9.217216675915616
+300: time = 0.573000 loss = 8.205205
+Resulting gain: 1.012012165057481
+Leopardus_braccatus response curves
+Time since start: 28.971
+Jackknife: leave elevation out
+Making features
+makeFeatures: max memory 2844786688, total allocated 253755392, free 147807328, used 105948064, increment -46459648
+Leopardus_braccatus elevation: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 253755392, free 138524864, used 115230528, increment 9282464
+linearPredictor: max memory 2844786688, total allocated 253755392, free 138524864, used 115230528, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 253755392, free 138524864, used 115230528, increment 0
+Sequential: max memory 2844786688, total allocated 253755392, free 138524864, used 115230528, increment 0
+Initial loss: 9.217216675915616
+Time since start: 36.033
+500: time = 6.895000 loss = 7.599658
+Jackknife: leave max temperature of warmest month out
+Making features
+makeFeatures: max memory 2844786688, total allocated 180879360, free 68148848, used 112730512, increment -2500016
+Leopardus_braccatus max temperature of warmest month: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 180879360, free 58384416, used 122494944, increment 9764432
+linearPredictor: max memory 2844786688, total allocated 180879360, free 58384416, used 122494944, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 180879360, free 58384416, used 122494944, increment 0
+Sequential: max memory 2844786688, total allocated 180879360, free 58384416, used 122494944, increment 0
+Initial loss: 9.217216675915616
+Time since start: 43.288
+500: time = 7.112000 loss = 7.573586
+Jackknife: leave mean diurnal range out
+Making features
+makeFeatures: max memory 2844786688, total allocated 180355072, free 46989432, used 133365640, increment 10870696
+Leopardus_braccatus mean diurnal range: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 189792256, free 86742184, used 103050072, increment -30315568
+linearPredictor: max memory 2844786688, total allocated 189792256, free 86742184, used 103050072, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 189792256, free 86742184, used 103050072, increment 0
+Sequential: max memory 2844786688, total allocated 189792256, free 86742184, used 103050072, increment 0
+Initial loss: 9.217216675915616
+Time since start: 48.608
+500: time = 5.185000 loss = 7.593844
+Jackknife: leave min temperature of coldest month out
+Making features
+makeFeatures: max memory 2844786688, total allocated 178257920, free 70799896, used 107458024, increment 4407952
+Leopardus_braccatus min temperature of coldest month: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 178257920, free 61114152, used 117143768, increment 9685744
+linearPredictor: max memory 2844786688, total allocated 178257920, free 61114152, used 117143768, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 178257920, free 61114152, used 117143768, increment 0
+Sequential: max memory 2844786688, total allocated 178257920, free 61114152, used 117143768, increment 0
+Initial loss: 9.217216675915616
+Time since start: 55.742
+500: time = 7.002000 loss = 7.607994
+Jackknife: leave precipitation of coldest quarter out
+Making features
+makeFeatures: max memory 2844786688, total allocated 190840832, free 69865104, used 120975728, increment 3831960
+Leopardus_braccatus precipitation of coldest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 190840832, free 59393584, used 131447248, increment 10471520
+linearPredictor: max memory 2844786688, total allocated 190840832, free 59393584, used 131447248, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 190840832, free 59393584, used 131447248, increment 0
+Sequential: max memory 2844786688, total allocated 190840832, free 59393584, used 131447248, increment 0
+Initial loss: 9.217216675915616
+Time since start: 62.595
+500: time = 6.722000 loss = 7.586386
+Jackknife: leave precipitation of driest quarter out
+Making features
+makeFeatures: max memory 2844786688, total allocated 176685056, free 23523480, used 153161576, increment 21714328
+Leopardus_braccatus precipitation of driest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 185073664, free 55088632, used 129985032, increment -23176544
+linearPredictor: max memory 2844786688, total allocated 185073664, free 55008064, used 130065600, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 185073664, free 55008064, used 130065600, increment 0
+Sequential: max memory 2844786688, total allocated 185073664, free 55008064, used 130065600, increment 0
+Initial loss: 9.217216675915616
+Time since start: 69.544
+500: time = 6.821000 loss = 7.596121
+Jackknife: leave precipitation of warmest quarter out
+Making features
+makeFeatures: max memory 2844786688, total allocated 190316544, free 28223080, used 162093464, increment 32027864
+Leopardus_braccatus precipitation of warmest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 190316544, free 18255320, used 172061224, increment 9967760
+linearPredictor: max memory 2844786688, total allocated 190316544, free 18255320, used 172061224, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 190316544, free 18255320, used 172061224, increment 0
+Sequential: max memory 2844786688, total allocated 190316544, free 18255320, used 172061224, increment 0
+Initial loss: 9.217216675915616
+Time since start: 76.522
+500: time = 6.846000 loss = 7.565241
+Jackknife: leave precipitation of wettest quarter out
+Making features
+makeFeatures: max memory 2844786688, total allocated 126877696, free 55465056, used 71412640, increment -100648584
+Leopardus_braccatus precipitation of wettest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 126353408, free 82062672, used 44290736, increment -27121904
+linearPredictor: max memory 2844786688, total allocated 126353408, free 81982104, used 44371304, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 126353408, free 81982104, used 44371304, increment 0
+Sequential: max memory 2844786688, total allocated 126353408, free 81982104, used 44371304, increment 0
+Initial loss: 9.217216675915616
+Time since start: 83.418
+500: time = 6.756000 loss = 7.666865
+Jackknife: leave precipitation seasonality out
+Making features
+makeFeatures: max memory 2844786688, total allocated 135790592, free 73772400, used 62018192, increment 17646888
+Leopardus_braccatus precipitation seasonality: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 135790592, free 63850016, used 71940576, increment 9922384
+linearPredictor: max memory 2844786688, total allocated 135790592, free 63850016, used 71940576, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 135790592, free 63850016, used 71940576, increment 0
+Sequential: max memory 2844786688, total allocated 135790592, free 63850016, used 71940576, increment 0
+Initial loss: 9.217216675915616
+Time since start: 88.505
+500: time = 4.961000 loss = 7.632655
+Jackknife: leave temperature annual range out
+Making features
+makeFeatures: max memory 2844786688, total allocated 134742016, free 41697320, used 93044696, increment 21104120
+Leopardus_braccatus temperature annual range: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 133693440, free 72712608, used 60980832, increment -32063864
+linearPredictor: max memory 2844786688, total allocated 133693440, free 72712608, used 60980832, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 133693440, free 72712608, used 60980832, increment 0
+Sequential: max memory 2844786688, total allocated 133693440, free 72712608, used 60980832, increment 0
+Initial loss: 9.217216675915616
+Time since start: 96.257
+500: time = 7.619000 loss = 7.649998
+Jackknife: only elevation
+Making features
+makeFeatures: max memory 2844786688, total allocated 139984896, free 57159328, used 82825568, increment 21844736
+Leopardus_braccatus elevation: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 139984896, free 56034496, used 83950400, increment 1124832
+linearPredictor: max memory 2844786688, total allocated 139984896, free 56034496, used 83950400, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 139984896, free 56034496, used 83950400, increment 0
+Sequential: max memory 2844786688, total allocated 139984896, free 56034496, used 83950400, increment 0
+Initial loss: 9.217216675915616
+160: time = 0.453000 loss = 8.990193
+Res.gain: 0.22702350307219632
+Jackknife: only max temperature of warmest month
+Making features
+makeFeatures: max memory 2844786688, total allocated 138936320, free 32596984, used 106339336, increment 22388936
+Leopardus_braccatus max temperature of warmest month: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 138936320, free 32418800, used 106517520, increment 178184
+linearPredictor: max memory 2844786688, total allocated 138936320, free 32338232, used 106598088, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 138936320, free 32338232, used 106598088, increment 0
+Sequential: max memory 2844786688, total allocated 138936320, free 32338232, used 106598088, increment 0
+Initial loss: 9.217216675915616
+140: time = 0.305000 loss = 9.065940
+Res.gain: 0.1512762195103221
+Jackknife: only mean diurnal range
+Making features
+makeFeatures: max memory 2844786688, total allocated 138936320, free 29137600, used 109798720, increment 3200632
+Leopardus_braccatus mean diurnal range: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 138936320, free 27960144, used 110976176, increment 1177456
+linearPredictor: max memory 2844786688, total allocated 138936320, free 27960144, used 110976176, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 138936320, free 27960144, used 110976176, increment 0
+Sequential: max memory 2844786688, total allocated 138936320, free 27960144, used 110976176, increment 0
+Initial loss: 9.217216675915616
+Time since start: 99.121
+320: time = 2.050000 loss = 8.585925
+Res.gain: 0.6312914527876234
+Jackknife: only min temperature of coldest month
+Making features
+makeFeatures: max memory 2844786688, total allocated 125829120, free 29378600, used 96450520, increment -14525656
+Leopardus_braccatus min temperature of coldest month: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 125829120, free 28457304, used 97371816, increment 921296
+linearPredictor: max memory 2844786688, total allocated 125829120, free 28457304, used 97371816, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 125829120, free 28457304, used 97371816, increment 0
+Sequential: max memory 2844786688, total allocated 125829120, free 28457304, used 97371816, increment 0
+Initial loss: 9.217216675915616
+480: time = 0.800000 loss = 8.209453
+Res.gain: 1.0077632005857726
+Jackknife: only precipitation of coldest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 125304832, free 59612040, used 65692792, increment -31679024
+Leopardus_braccatus precipitation of coldest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 125304832, free 58738952, used 66565880, increment 873088
+linearPredictor: max memory 2844786688, total allocated 125304832, free 58658384, used 66646448, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 125304832, free 58658384, used 66646448, increment 0
+Sequential: max memory 2844786688, total allocated 125304832, free 58658384, used 66646448, increment 0
+Initial loss: 9.217216675915616
+Time since start: 100.468
+200: time = 0.518000 loss = 8.803414
+Res.gain: 0.4138023357244691
+Jackknife: only precipitation of driest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 125304832, free 43451472, used 81853360, increment 15206912
+Leopardus_braccatus precipitation of driest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 125304832, free 41717064, used 83587768, increment 1734408
+linearPredictor: max memory 2844786688, total allocated 125304832, free 41717064, used 83587768, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 125304832, free 41717064, used 83587768, increment 0
+Sequential: max memory 2844786688, total allocated 125304832, free 41717064, used 83587768, increment 0
+Initial loss: 9.217216675915616
+260: time = 0.562000 loss = 8.944024
+Res.gain: 0.2731926746101667
+Jackknife: only precipitation of warmest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 124780544, free 38542392, used 86238152, increment 2650384
+Leopardus_braccatus precipitation of warmest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 124780544, free 37658112, used 87122432, increment 884280
+linearPredictor: max memory 2844786688, total allocated 124780544, free 37658112, used 87122432, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 124780544, free 37658112, used 87122432, increment 0
+Sequential: max memory 2844786688, total allocated 124780544, free 37658112, used 87122432, increment 0
+Initial loss: 9.217216675915616
+Time since start: 101.613
+260: time = 0.550000 loss = 8.841294
+Res.gain: 0.37592238140838496
+Jackknife: only precipitation of wettest quarter
+Making features
+makeFeatures: max memory 2844786688, total allocated 123207680, free 57637256, used 65570424, increment -21552008
+Leopardus_braccatus precipitation of wettest quarter: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 123207680, free 56025912, used 67181768, increment 1611344
+linearPredictor: max memory 2844786688, total allocated 123207680, free 56025912, used 67181768, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 123207680, free 56025912, used 67181768, increment 0
+Sequential: max memory 2844786688, total allocated 123207680, free 56025912, used 67181768, increment 0
+Initial loss: 9.217216675915616
+Time since start: 102.871
+500: time = 1.243000 loss = 8.590586
+Res.gain: 0.626630632868638
+Jackknife: only precipitation seasonality
+Making features
+makeFeatures: max memory 2844786688, total allocated 121110528, free 51859816, used 69250712, increment 2068944
+Leopardus_braccatus precipitation seasonality: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 121110528, free 50090736, used 71019792, increment 1769080
+linearPredictor: max memory 2844786688, total allocated 121110528, free 50010168, used 71100360, increment 80568
+FeaturedSpace: max memory 2844786688, total allocated 121110528, free 50010168, used 71100360, increment 0
+Sequential: max memory 2844786688, total allocated 121110528, free 50010168, used 71100360, increment 0
+Initial loss: 9.217216675915616
+Time since start: 105.052
+340: time = 2.160000 loss = 8.952346
+Res.gain: 0.26487038536977714
+Jackknife: only temperature annual range
+Making features
+makeFeatures: max memory 2844786688, total allocated 134217728, free 30122592, used 104095136, increment 32994776
+Leopardus_braccatus temperature annual range: 
+Regularization values: linear/quadratic/product: 0.193, categorical: 0.250, threshold: 1.200, hinge: 0.500
+80 samples
+Density: max memory 2844786688, total allocated 134217728, free 29114184, used 105103544, increment 1008408
+linearPredictor: max memory 2844786688, total allocated 134217728, free 29114184, used 105103544, increment 0
+FeaturedSpace: max memory 2844786688, total allocated 134217728, free 29114184, used 105103544, increment 0
+Sequential: max memory 2844786688, total allocated 134217728, free 29114184, used 105103544, increment 0
+Initial loss: 9.217216675915616
+300: time = 0.533000 loss = 8.205205
+Res.gain: 1.012012165057481
+Ending
