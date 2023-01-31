@@ -5,8 +5,10 @@
 </head>
 
 <body style="text-align: center; background-color: #ddf; overflow: hidden;">
-<h3> Species:
-<select id="options" onchange="document.getElementById('iframe').src = this.options[this.selectedIndex].value">
+<h2 style="font-size: 1.5rem"> Species:
+<select id="options"
+        style="font-size: 1.2rem !important"
+        onchange="document.getElementById('iframe').src = this.options[this.selectedIndex].value">
   <option value='Leopardus braccatus/Leopardus_braccatus.html'>Leopardus braccatus</option>
   <option value='Leopardus colocola/Leopardus_colocola.html'>Leopardus colocola</option>
   <option value='Leopardus emiliae/Leopardus_emiliae.html'>Leopardus emiliae</option>
@@ -21,7 +23,7 @@
   <option value='Leopardus tigrinus/Leopardus_tigrinus.html'>Leopardus tigrinus</option>
   <option value='Leopardus wiedii/Leopardus_wiedii.html'>Leopardus wiedii</option>
 </select>
-</h3>
+</h2>
 <iframe id="iframe" src="Leopardus braccatus/Leopardus_braccatus.html"
         style="width: 95vw; height: 80vh; margin: auto; background-color: white">
 </iframe>
