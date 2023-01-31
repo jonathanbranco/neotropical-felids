@@ -1,0 +1,92 @@
+elevation, 0.0, -28.0, 5423.0
+max temperature of warmest month, 0.0, 4.0, 42.0
+mean diurnal range, 0.0, 3.825000047683716, 20.2164363861084
+min temperature of coldest month, 0.0, -16.0, 25.0
+precipitation of coldest quarter, 3.292334160720842, 0.0, 2073.0
+precipitation of driest quarter, 0.0, 0.0, 1395.0
+precipitation of warmest quarter, 0.0, 0.0, 5282.0
+precipitation of wettest quarter, 0.0, 0.0, 5282.0
+precipitation seasonality, 0.0, 0.0, 187.91233825683594
+temperature annual range, -2.1970364539689533, 7.0, 39.0
+min temperature of coldest month^2, -0.28245319881815223, 0.0, 625.0
+precipitation seasonality^2, 0.5566754699056284, 0.0, 35311.04686915153
+temperature annual range^2, -0.5635501767229486, 49.0, 1521.0
+elevation*precipitation of coldest quarter, -4.9820103279458925, -1652.0, 1926480.0
+elevation*precipitation of driest quarter, -7.6084777600569895, -1540.0, 1243644.0
+elevation*precipitation of warmest quarter, -3.6293354297453932, -1876.0, 2300586.0
+elevation*precipitation of wettest quarter, -2.4308981881480616, -2352.0, 2760528.0
+elevation*temperature annual range, -0.8508053160345205, -840.0, 127170.0
+max temperature of warmest month*precipitation of wettest quarter, -2.989378392696169, 0.0, 179588.0
+max temperature of warmest month*precipitation seasonality, 0.6855071602372254, 0.0, 6174.446228027344
+mean diurnal range*precipitation of coldest quarter, -1.0533387718010858, 0.0, 17810.577644348145
+mean diurnal range*precipitation of driest quarter, -8.898733371063905, 0.0, 13532.546739578247
+mean diurnal range*precipitation of warmest quarter, -1.8362196262649035, 0.0, 50963.29874038696
+mean diurnal range*precipitation of wettest quarter, -1.5240437913544076, 0.0, 50963.29874038696
+min temperature of coldest month*precipitation of wettest quarter, -1.4870541140520777, -5885.0, 116204.0
+min temperature of coldest month*precipitation seasonality, 1.3698188924583263, -1739.9058837890625, 3006.597412109375
+precipitation of coldest quarter*precipitation of driest quarter, 5.639462931818311, 0.0, 2561220.0
+precipitation of coldest quarter*precipitation of warmest quarter, 5.393972353070238, 0.0, 2912916.0
+precipitation of coldest quarter*precipitation of wettest quarter, -0.018358095200270718, 0.0, 4351227.0
+precipitation of coldest quarter*precipitation seasonality, 0.016470465786470177, 0.0, 128955.42526245117
+precipitation of coldest quarter*temperature annual range, -2.2585768898560934, 0.0, 23920.0
+precipitation of driest quarter*precipitation seasonality, -3.169023227284513, 0.0, 27622.14102935791
+precipitation of driest quarter*temperature annual range, -1.3497794109039767, 0.0, 15360.0
+precipitation of warmest quarter*precipitation seasonality, -1.474349746286739, 0.0, 528470.563873291
+precipitation of warmest quarter*temperature annual range, -10.614317713333543, 0.0, 68666.0
+`min temperature of coldest month, -11.643074719113036, -16.0, 14.5
+`precipitation of wettest quarter, -1.0357762648537245, 0.0, 250.5
+'min temperature of coldest month, -4.03530892310248, 20.5, 25.0
+`precipitation of coldest quarter, -2.3238530599621785, 0.0, 7.5
+`precipitation seasonality, 1.6875706850845533, 0.0, 31.21969509124756
+'min temperature of coldest month, -0.7344118840187001, 21.5, 25.0
+`precipitation of coldest quarter, 0.27846389397868326, 0.0, 26.5
+`precipitation of driest quarter, -0.3611867947108603, 0.0, 7.5
+`elevation, -1.5547366852130446, -28.0, 20.5
+`precipitation of wettest quarter, -2.850553829695066, 0.0, 257.5
+`temperature annual range, 0.0663524882751628, 7.0, 13.5
+'precipitation of coldest quarter, -0.6651837662107103, 613.5, 2073.0
+`precipitation of coldest quarter, -0.16244984377299543, 0.0, 556.5
+`precipitation of coldest quarter, -1.1089235032174376, 0.0, 8.5
+'max temperature of warmest month, -4.435635421060912, 28.5, 42.0
+`precipitation seasonality, 0.44873356484681604, 0.0, 39.102643966674805
+'mean diurnal range, 0.06555522495536811, 12.159958362579346, 20.2164363861084
+`precipitation of wettest quarter, -0.7476859488354592, 0.0, 603.5
+`precipitation of warmest quarter, 0.16261808661516658, 0.0, 771.5
+`precipitation of warmest quarter, 0.044144521348399024, 0.0, 758.5
+`precipitation of warmest quarter, 0.1490147513433322, 0.0, 764.5
+`elevation, -0.3189626654574779, -28.0, 488.5
+'precipitation of coldest quarter, -0.3666924069208678, 603.5, 2073.0
+`precipitation of coldest quarter, -0.18621135488716656, 0.0, 571.5
+`precipitation of coldest quarter, 0.09362950528552942, 0.0, 93.5
+`precipitation of warmest quarter, 0.20020036097602573, 0.0, 787.5
+`precipitation seasonality, 0.017424777961786948, 0.0, 31.760311126708984
+`precipitation of wettest quarter, 0.2619504898212565, 0.0, 1244.5
+`precipitation of warmest quarter, 0.351165871339973, 0.0, 782.5
+`precipitation of warmest quarter, -0.05029096990145707, 0.0, 35.5
+`precipitation of wettest quarter, 0.03738840830404999, 0.0, 1243.5
+'mean diurnal range, 0.20247167680416647, 11.240927696228027, 20.2164363861084
+'mean diurnal range, 0.16645657851982723, 11.222656726837158, 20.2164363861084
+'min temperature of coldest month, -0.8555918750445924, 15.5, 25.0
+`precipitation of coldest quarter, -0.5173181565277404, 0.0, 573.0
+'mean diurnal range, 0.1556538083205686, 11.220137119293213, 20.2164363861084
+`precipitation of driest quarter, -0.20503484306548292, 0.0, 8.5
+'mean diurnal range, 0.9996712699463212, 11.218823432922363, 20.2164363861084
+`precipitation of driest quarter, 0.04863418178904807, 0.0, 49.5
+'max temperature of warmest month, -0.29548276139078083, 27.5, 42.0
+`precipitation of coldest quarter, -0.19454065551448024, 0.0, 574.5
+`precipitation of wettest quarter, -0.3181683803119012, 0.0, 637.5
+`precipitation seasonality, 0.05642641969708823, 0.0, 39.2371711730957
+'mean diurnal range, 1.91984855554238, 11.218063354492188, 20.2164363861084
+`precipitation of coldest quarter, 0.11776360296543707, 0.0, 86.5
+`precipitation seasonality, 0.22935130492957725, 0.0, 39.51392364501953
+`precipitation seasonality, 0.015078160701277453, 0.0, 39.53917121887207
+`precipitation of wettest quarter, -0.3139622654684361, 0.0, 647.5
+`precipitation seasonality, 0.20698580494193886, 0.0, 39.682329177856445
+`precipitation of wettest quarter, -0.1281157708185592, 0.0, 648.5
+'precipitation of coldest quarter, -0.2352168578303364, 602.5, 2073.0
+'precipitation seasonality, -0.14914670142349978, 88.75514221191406, 187.91233825683594
+`precipitation seasonality, 0.05159488223801287, 0.0, 39.72632598876953
+linearPredictorNormalizer, -1.3485202015045021
+densityNormalizer, 209.9215396851277
+numBackgroundPoints, 10107
+entropy, 7.628577133070412
