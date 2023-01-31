@@ -1,0 +1,11 @@
+Predictor variable,Categorical,Sample average
+elevation,false,322.05
+max temperature of warmest month,false,27.575
+mean diurnal range,false,12.861821961402892
+min temperature of coldest month,false,0.75
+precipitation of coldest quarter,false,85.425
+precipitation of driest quarter,false,56.6
+precipitation of warmest quarter,false,139.375
+precipitation of wettest quarter,false,181.325
+precipitation seasonality,false,40.50543608665466
+temperature annual range,false,26.95
