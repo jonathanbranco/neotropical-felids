@@ -1,0 +1,2 @@
+java -mx2713m -cp "/U:/My Drive/Research data/Felid distribution mapping/maxent/maxent.jar;U:\My Drive\Research data\Felid distribution mapping\maxent\maxent.jar" density.Explain -l "U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus guigna\Leopardus_guigna.lambdas" -c "U:\My Drive\Research data\Felid distribution mapping\New distribution data\output\Leopardus guigna\Leopardus_guigna_projection 2041-2060.asc" "U:\My Drive\Research data\Felid distribution mapping\New distribution data\projection 2041-2060"
+@if errorlevel 1 pause

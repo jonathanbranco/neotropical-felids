@@ -1,0 +1,33 @@
+elevation, 0.0, -28.0, 5423.0
+max temperature of warmest month, 0.0, 4.0, 42.0
+mean diurnal range, 0.0, 3.825000047683716, 20.2164363861084
+min temperature of coldest month, 0.0, -16.0, 25.0
+precipitation of coldest quarter, 0.9505866195828696, 0.0, 2073.0
+precipitation of driest quarter, 0.0, 0.0, 1395.0
+precipitation of warmest quarter, -10.697816033960395, 0.0, 5282.0
+precipitation of wettest quarter, 0.0, 0.0, 5282.0
+precipitation seasonality, 3.86841166560023, 0.0, 187.91233825683594
+temperature annual range, 0.0, 7.0, 39.0
+elevation^2, -10.685343905355019, 0.0, 2.9408929E7
+max temperature of warmest month^2, -13.646180048799586, 16.0, 1764.0
+min temperature of coldest month^2, -7.590665494435485, 0.0, 625.0
+precipitation of driest quarter^2, -3.945897057086359, 0.0, 1946025.0
+`precipitation of coldest quarter, -0.8021646895041731, 0.0, 481.5
+`precipitation of coldest quarter, -1.1203061442164326, 0.0, 480.5
+`precipitation of coldest quarter, -0.729681615651156, 0.0, 482.5
+`precipitation of coldest quarter, -2.3385967959513496, 0.0, 557.5
+`precipitation of coldest quarter, -1.6300010885207454, 0.0, 273.5
+`precipitation of coldest quarter, -1.0145360889901338, 0.0, 271.5
+`mean diurnal range, -0.8844631374879933, 3.825000047683716, 5.549455881118774
+`precipitation of driest quarter, 1.4381771886789734, 0.0, 17.5
+`max temperature of warmest month, -4.875240322107306, 4.0, 18.5
+`mean diurnal range, -0.23084337206590327, 3.825000047683716, 5.6486735343933105
+`temperature annual range, -0.41124568097688013, 7.0, 22.5
+`precipitation of warmest quarter, 1.5790938229346956, 0.0, 20.5
+`precipitation of coldest quarter, -0.11943076600111228, 0.0, 568.0
+`precipitation of warmest quarter, 0.38105077296250794, 0.0, 19.5
+`precipitation of coldest quarter, -0.33347704213224105, 0.0, 479.0
+linearPredictorNormalizer, -1.5871705617759166
+densityNormalizer, 55.88880155711484
+numBackgroundPoints, 10045
+entropy, 5.488256458103935
